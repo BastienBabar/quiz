@@ -33,6 +33,6 @@ module Quiz
 
     # Default Application Settings
     config.application_name = "Quiz"
-    config.application_creator = "Bastien Barbé"
+    config.application_creator = "Bastien BarbÃ©"
   end
 end

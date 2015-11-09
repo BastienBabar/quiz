@@ -22,6 +22,8 @@ gem 'high_voltage', '2.2.1'
 gem 'bootstrap-sass', '3.3.3'
 gem 'autoprefixer-rails', '5.1.7'
 gem 'devise', '3.4.1'
+gem 'haml-rails'
+gem 'dotenv-rails'
 
 group :development do
   gem 'better_errors', '2.1.1'
@@ -29,6 +31,14 @@ group :development do
   gem 'quiet_assets', '1.1.0'
   gem 'spring', '1.3.3'
   gem 'sqlite3', '1.3.10'
+end
+
+group :test do
+  gem 'rspec-rails', '3.3.3'
+  gem 'capybara', '2.4.4'
+  gem 'capybara-screenshot', '~> 1.0'
+  gem 'poltergeist', '~> 1.6'
+  gem 'simplecov'
 end
 
 group :production do

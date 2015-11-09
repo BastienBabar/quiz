@@ -43,3 +43,8 @@ Temporary Items
 .apdisk
 
 /.idea/
+/tmp/
+/log/*.log
+/coverage
+
+.env

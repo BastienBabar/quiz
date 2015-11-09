@@ -1,0 +1,6 @@
+.center.jumbotron
+  %h1
+    Welcome to #{Rails.application.config.application_name}
+  %p
+    This is the home page for the #{link_to Rails.application.config.application_name, root_path} app.
+  = link_to "Sign up now!", new_user_registration_path, class: "btn btn-lg btn-primary"

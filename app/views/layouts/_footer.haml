@@ -1,0 +1,10 @@
+%div.pull-left
+    = link_to Rails.application.config.application_name, root_path
+    by #{Rails.application.config.application_creator}
+%div.pull-right
+    %nav
+        %ul.list-inline
+            %li
+                %span#cdSiteSeal1
+                    %script{:src => "//tracedseals.starfieldtech.com/siteseal/get?scriptId=cdSiteSeal1&cdSealType=Seal1&sealId=55e4ye7y7mb730aa1fd9889fd9470d76zzxxy7mb7355e4ye74ffe7b91ae2b110", :type => "text/javascript"}
+            %li= link_to "Contact", page_path('contact')

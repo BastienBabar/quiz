@@ -44,8 +44,8 @@ Temporary Items
 
 /.idea/
 /tmp/
-/tmp
 /log/
-/coverage
+/coverage/
 
 .env
+.localeapp

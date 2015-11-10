@@ -21,3 +21,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+---
+
+A ruby translation project managed on [Locale](http://www.localeapp.com/) that's open to all!
+
+## Contributing to quiz
+
+- Edit the translations directly on the [quiz](http://www.localeapp.com/projects/public?search=quiz) project on Locale.
+- **That's it!**
+- The maintainer will then pull translations from the Locale project and push to Github.
+
+Happy translating!

@@ -31,6 +31,8 @@ group :development do
   gem 'quiet_assets', '1.1.0'
   gem 'spring', '1.3.3'
   gem 'sqlite3', '1.3.10'
+  gem 'i18n-spec'
+  gem 'localeapp'
 end
 
 group :test do

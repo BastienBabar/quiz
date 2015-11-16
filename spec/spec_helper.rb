@@ -25,6 +25,8 @@ SimpleCov.start 'rails'
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
+  Capybara.server_port = 9887 + ENV['TEST_ENV_NUMBER'].to_i
+
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 

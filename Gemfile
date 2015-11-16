@@ -31,8 +31,9 @@ group :development do
   gem 'quiet_assets', '1.1.0'
   gem 'spring', '1.3.3'
   gem 'sqlite3', '1.3.10'
-  gem 'i18n-spec'
   gem 'localeapp'
+  gem 'guard-rspec', require: false
+  gem 'parallel_tests'
 end
 
 group :test do
@@ -41,6 +42,7 @@ group :test do
   gem 'capybara-screenshot', '~> 1.0'
   gem 'poltergeist', '~> 1.6'
   gem 'simplecov'
+  gem 'i18n-spec'
 end
 
 group :production do

@@ -35,6 +35,8 @@ group :development do
   gem 'localeapp'
   gem 'guard-rspec', require: false
   gem 'parallel_tests'
+  gem 'fuubar'
+  gem 'factory_girl_rails'
 end
 
 group :test do

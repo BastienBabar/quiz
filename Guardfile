@@ -26,7 +26,7 @@
 rspec_options = {
     cmd: "bundle exec rspec",
     run_all: {
-        cmd: "bundle exec parallel_rspec -o '",
+        cmd: "bundle exec parallel:spec -o '",
         cmd_additional_args: "'"
     }
 }
@@ -70,6 +70,7 @@ guard :rspec, rspec_options do
   watch(rails.layouts)       { |m| rspec.spec.("features/#{m[1]}") }
 
   # Turnip features and steps
+  watch(%r{^app/(.+)\.rb$}) { |m| "spec/#{m[1]}_spec.rb" }
   watch(%r{^spec/acceptance/(.+)\.feature$})
   watch(%r{^spec/acceptance/steps/(.+)_steps\.rb$}) do |m|
     Dir[File.join("**/#{m[1]}.feature")][0] || "spec/acceptance"

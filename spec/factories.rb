@@ -1,7 +1,14 @@
 FactoryGirl.define do
   factory :user do
-    email { Faker::Internet.email }
+    email 'email@email.com'
     encrypted_password 'password'
     sign_in_count '2'
   end
+
+  factory :question do
+    title 'question'
+  end
+
+  FactoryGirl.create_list(:question, 20)
+
 end

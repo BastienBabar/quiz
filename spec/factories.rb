@@ -9,6 +9,4 @@ FactoryGirl.define do
     title 'question'
   end
 
-  FactoryGirl.create_list(:question, 20)
-
 end

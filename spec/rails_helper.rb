@@ -28,6 +28,19 @@ SimpleCov.start 'rails'
 RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
 
+  config.before(:suite) do
+    DatabaseCleaner.strategy = :transaction
+    DatabaseCleaner.clean_with(:truncation)
+  end
+
+  config.before(:each) do
+    DatabaseCleaner.start
+  end
+
+  config.after(:each) do
+    DatabaseCleaner.clean
+  end
+
   Capybara.server_port = 9887 + ENV['TEST_ENV_NUMBER'].to_i
 
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures

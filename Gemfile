@@ -31,12 +31,16 @@ group :development do
   gem 'binding_of_caller', '0.7.2', :platforms=>[:mri_21]
   gem 'quiet_assets', '1.1.0'
   gem 'spring', '1.3.3'
-  gem 'sqlite3', '1.3.10'
   gem 'localeapp'
   gem 'guard-rspec', require: false
   gem 'parallel_tests'
   gem 'fuubar'
   gem 'factory_girl_rails'
+end
+
+group :test, :development do
+  gem 'sqlite3'
+  gem 'database_cleaner'
 end
 
 group :test do

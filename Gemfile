@@ -33,14 +33,14 @@ group :development do
   gem 'spring', '1.3.3'
   gem 'localeapp'
   gem 'guard-rspec', require: false
-  gem 'parallel_tests'
-  gem 'fuubar'
-  gem 'factory_girl_rails'
 end
 
 group :test, :development do
   gem 'sqlite3'
   gem 'database_cleaner'
+  gem 'parallel_tests'
+  gem 'fuubar'
+  gem 'factory_girl_rails'
 end
 
 group :test do

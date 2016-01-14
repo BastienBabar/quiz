@@ -13,12 +13,9 @@
   = csrf_meta_tags
   = render 'layouts/shim'
 %body
-  .container
-    %header= render 'layouts/navigation'
-    %main{:role => "main"}
-      = render 'layouts/messages'
-      = yield
-    %footer.footer
-      = render 'layouts/footer'
-      = debug(params) if Rails.env.development?
-      / /container
+  %header= render 'layouts/navigation'
+  = render 'layouts/messages'
+  = yield
+  %footer.footer
+    = render 'layouts/footer'
+    = debug(params) if Rails.env.development?

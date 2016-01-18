@@ -1,6 +1,6 @@
 @import "bootstrap-sprockets"
-
 @import "bootstrap"
+@import "variables"
 
 html
   overflow-y: scroll
@@ -20,11 +20,11 @@ footer
   margin-top: 45px
   padding-top: 5px
   border-top: 1px solid gray
-  color: lightgrey
+  color: $color1
   a
-    color: gray
+    color: $color1
     &:hover
-      color: darkgray
+      color: $color4
 
 /* forms
 
@@ -44,3 +44,30 @@ footer
 
 p
   text-align: center
+
+body
+  background-image: url("background.png")
+  background-repeat: no-repeat
+  background-size: cover
+  font-family: "Rockwell", sans-serif
+  font-size: 16px
+  color: $color1
+  font-weight: bold
+
+.navbar-default
+  background-color: $color1
+  border-color: $color1
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+  color: $color1
+  background-color: #FFFFFF
+
+.navbar-default .navbar-nav > li > a
+  color: $color2
+  &:hover
+    color: $color3
+
+.navbar-default .navbar-brand
+  color: $color2
+  &:hover
+    color: $color3

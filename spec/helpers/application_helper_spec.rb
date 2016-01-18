@@ -11,5 +11,9 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe ApplicationHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "#is_active_link?" do
+    it "returns active" do
+      expect(helper.is_active_link?("")).to eq("active")
+    end
+  end
 end

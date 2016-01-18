@@ -1,36 +1,8 @@
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/BastienBabar/quiz)
+[![Codeship Status for BastienBabar/quiz](https://codeship.com/projects/5413f7c0-66a5-0133-fcc4-72bdfd530753/status?branch=master)](https://codeship.com/projects/113821)
+[![Coverage Status](https://coveralls.io/repos/github/BastienBabar/quiz/badge.svg?branch=master)](https://coveralls.io/github/BastienBabar/quiz?branch=master)
 
-## License
+## Quiz
 
-The MIT License (MIT)
+This application will include a quiz (within a gem or not) to show more about myself.
 
-Copyright (c) 2015 Steve Nims, sjnims@gmail.com
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
----
-
-A ruby translation project managed on [Locale](http://www.localeapp.com/) that's open to all!
-
-## Contributing to quiz
-
-- Edit the translations directly on the [quiz](http://www.localeapp.com/projects/public?search=quiz) project on Locale.
-- **That's it!**
-- The maintainer will then pull translations from the Locale project and push to Github.
-
-Happy translating!

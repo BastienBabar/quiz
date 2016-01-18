@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  title: Bastien Barbé
   welcome_h1: Welcome to Bastien's website!
   welcome_intro: This website to learn more about me is under construction, so please be comprehensive about any bad feature or design :)
   about_me: About me

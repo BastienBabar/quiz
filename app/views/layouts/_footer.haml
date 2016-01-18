@@ -1,5 +1,13 @@
 %div.pull-left
   Done by #{Rails.application.config.application_creator}
+  %a{ :href => "https://twitter.com/share", :class => "twitter-share-button", "data-text" => "Check it out",
+    "data-via" => "BastienBARBE", "data-related" => "BastienBARBE", "data-hashtags" => "developer", "data-url" => "http://www.bastienbarbé.com" }
+  %a{ :href => "https://www.hopwork.fr/profile/bastienbarbe", "data-id" => "56798cf6e4b0c3293a985904", :class => "hopwork_button",
+    "data-layout" => "scare", "data-colorscheme" => "blue", "data-recos" => "true", "data-bgrecos" =>"dark" }
+  %a{ :href => "https://fr.linkedin.com/pub/bastien-barbe/a4/61b/118", :style => "text-decoration:none;", :target => "_blank" }
+    %span
+      %img{ :src => "https://static.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png", :width => "20", :height => "15",
+       :alt => "LinkedIn Bastien BARBE", :style => "vertical-align:middle;", :border => "0" }
 %div.pull-right
   %nav
     %ul.list-inline

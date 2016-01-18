@@ -19,7 +19,7 @@ section
 footer
   margin-top: 45px
   padding-top: 5px
-  border-top: 1px solid gray
+  border-top: 1px solid $color1
   color: $color1
   a
     color: $color1
@@ -44,6 +44,10 @@ footer
 
 p
   text-align: center
+  text-shadow: 0 1px 1px $color4
+
+h1
+  text-shadow: 0 1px 1px $color4
 
 body
   background-image: url("background.png")
@@ -53,6 +57,7 @@ body
   font-size: 16px
   color: $color1
   font-weight: bold
+  position: relative
 
 .navbar-default
   background-color: $color1
@@ -71,3 +76,29 @@ body
   color: $color2
   &:hover
     color: $color3
+
+hr.style-seven
+  height: 30px
+  border-style: solid
+  border-color: $color1
+  border-width: 5px 0 0 0
+  border-radius: 20px
+  width: 50%
+  margin-bottom: 0px
+
+hr.style-seven:before
+  display: block
+  content: ""
+  height: 30px
+  margin-top: -31px
+  border-style: solid
+  border-color: $color1
+  border-width: 0 0 5px 0
+  border-radius: 20px
+  margin-bottom: 0px
+
+hr.style-two
+  border: 0
+  height: 2px
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $color1, rgba(0, 0, 0, 0))
+  width: 50%

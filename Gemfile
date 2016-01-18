@@ -26,6 +26,8 @@ gem 'haml-rails'
 gem 'dotenv-rails'
 gem 'globalize'
 gem 'coveralls', require: false
+gem 'mail_form'
+gem 'simple_form'
 
 group :development do
   gem 'better_errors', '2.1.1'
@@ -57,4 +59,5 @@ group :production do
   gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.3'
   gem 'passenger', '4.0.57'
+  gem 'newrelic_rpm'
 end

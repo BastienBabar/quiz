@@ -12,7 +12,7 @@
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
   = csrf_meta_tags
   = render 'layouts/shim'
-%body
+%body.container{ 'data-spy' => "scroll", 'data-target' => ".navbar" }
   %header= render 'layouts/navigation'
   = render 'layouts/messages'
   = yield

@@ -25,6 +25,7 @@ gem 'devise', '3.4.1'
 gem 'haml-rails'
 gem 'dotenv-rails'
 gem 'globalize'
+gem 'coveralls', require: false
 
 group :development do
   gem 'better_errors', '2.1.1'

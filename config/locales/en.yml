@@ -24,11 +24,19 @@ en:
   welcome_intro: This website to learn more about me is under construction, so please be comprehensive about any bad feature or design :)
   about_me: About me
   about_text_html: <p>I am a French Software Developer with more than 7 years experience in web based applications.</p><br>
-               <p>I am working as a Lead Developer at CareerBuilder since over 2 years, and at same time started with the Ruby on Rails environment, which we learned on our own in my team.
-               I have worked with .Net technologies the 5 years before that and not afraid (and I am doing it!) to learn any other in the coming months and years.</p><br>
-               <p>I have started to be a mentor at CareerFoundry for the web developer course since 2015. You can go to <a>http://www.CareerFoundry.com</a> to check it out.</p><br>
-               <p>My github account is <a>http://github.com/BastienBabar</a> which is a bit weak but I am working on it.</p><br>
-               <p>You can also have a look at the last project I worked on at CareerBuilder <a>http://coach.careerbuilder.com</a> with my team.
-               I work on this product since last year and I have helped on all stacks of this product to produce what it is now, from the discovery and user testing to back end / front end development and infrastructure architecture.</p><br>
-               <p>Here is also my LinkedIn profile <a>https://www.linkedin.com/profile/view?id=371794916</a>.</p>
-  contact_intro_html: If you want to reach me, you can use this old fashioned contact form or use the %{about} page with better communication tools
+               <p>I am working as a Lead Developer at CareerBuilder since over 2 years, and at same time started with the Ruby on Rails environment,
+               which we learned on our own in my team.
+               I have worked with .Net technologies the 5 years before that and not afraid (and I am doing it!)
+               to learn any other in the coming months and years.</p><br>
+               <p>I have started to be a mentor at CareerFoundry for the web developer course since 2015.
+               You can go to <a href="http://www.CareerFoundry.com" target="_blank">CareerFoundry</a> to check it out.</p><br>
+               <p>My <a href="http://github.com/BastienBabar" target="_blank">Github account</a> is a bit weak, but, I am working on it.</p><br>
+               <p>You can also have a look at the last project I worked on at CareerBuilder
+               (<a href="http://coach.careerbuilder.com" target="_blank">Coach</a>) with my team.
+               I work on this product since last year and I have helped on all stacks of this product to produce what it is now,
+               from the discovery and user testing to back end / front end development and infrastructure architecture.</p><br>
+  contact_intro_html: <p>If you want to reach me, you can use this old fashioned contact form or use
+              the %{about} page with better communication tools.</p><br>
+              <p>Here is also my <a href="https://www.linkedin.com/profile/view?id=371794916" target="_blank">LinkedIn profile</a>
+                                                                                                                                                                   and my french <a href="https://www.hopwork.fr/profile/bastienbarbe" target="_blank">HopWork profile</a>
+                                                                                                                                                                    if you want to contact me for some job.</p>

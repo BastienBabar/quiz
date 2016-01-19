@@ -40,4 +40,9 @@ $(document).ready(function() {
     if (window.matchMedia("(min-width: 768px)").matches) {
         $('[data-toggle="tooltip"]').tooltip();
     }
+    $('.report-card.codeschool').reportCard({
+        userName: 'bibar',
+        site: 'codeschool',
+        badgesAmount: 15
+    });
 });

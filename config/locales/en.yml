@@ -27,6 +27,9 @@ en:
   about_me: About me
   about: About
   social_title: Be Social
+  learnings: Learnings
+  news: News
+  news_sub: Look at my news, events participation and blog shares.
   about_text_1_html: <p>I am currently a Lead Developer at CareerBuilder, working with Ruby on Rails for 2 years.
                   In the 5 years prior to that, I built solutions in .Net technologies.
                   I love new challenges and am ready to learn additional languages!</p><br>
@@ -48,7 +51,8 @@ en:
     job_title: Job
     coach:
       title: Coach by CareerBuilder
-      desc_html: For the last year, I worked on all stages of
+      desc_html: A career site that allows users to compare themselves to others in their current or desired job.<br>
+          For the last year, I worked on all stages of
           <a href="http://coach.careerbuilder.com" target="_blank" >this product</a>,
           from the discovery and user testing to back end / front end development and infrastructure architecture.
       time: 2014/2015
@@ -58,7 +62,7 @@ en:
       desc_html: I am currently a mentor at
           <a href="http://www.careerfoundry.com" target="_blank" >CareerFoundry</a>,
           for the Web developer students, which I help to validate their exercises
-          and give them tips about web development in general.
+          and give them tips about web development in general, during their 6 months training.
       time: Since 2015 August
       job: Mentor (Web Developer Course)
     paris:
@@ -69,3 +73,9 @@ en:
       time: Janury 2016
       job: Writer
   more_to_come_html: <h3>More to come...</h3>
+  hopdrinks_date: 2016 Jan. 21st
+  hopdrinks_desc_html: Meetup "Apéro" for Freelancers in Paris!
+  parisrb_1_date: 2016 Jan. 6th
+  parisrb_1_desc_html: Paris Ruby Developer community meetup
+  parisrb_2_date: 2016 Feb. 2nd
+  parisrb_2_desc_html: Paris Ruby Developer community meetup

@@ -1,0 +1,40 @@
+%section#news
+  .container
+    .row
+      .col-lg-12.text-center
+        %h2= t('news')
+        %h3= t('news_sub')
+        %hr.star-primary
+    .row
+      .col-md-12.news-item
+        %ul.timeline
+          %li.timeline-inverted
+            .timeline-image
+              %a{ :target => "_blank", :href => "http://www.meetup.com/fr-FR/parisrb/" }
+                %img.img-circle.img-responsive{ :alt => "ParisRb", :src => image_path("news/parisrb.png") }/
+            .timeline-panel
+              .timeline-heading
+                = t('parisrb_2_date')
+                .subheading Paris.rb
+              .timeline-body
+                %p= t('parisrb_2_desc_html')
+          %li
+            .timeline-image
+              %a{ :target => "_blank", :href => "https://www.facebook.com/events/1678846872385676/" }
+                %img.img-circle.img-responsive{ :alt => "Hopdrinks", :src => image_path("news/hopdrink-janvier.png") }/
+            .timeline-panel
+              .timeline-heading
+                = t('hopdrinks_date')
+                .subheading Hopdrinks
+              .timeline-body
+                %p= t('hopdrinks_desc_html')
+          %li.timeline-inverted
+            .timeline-image
+              %a{ :target => "_blank", :href => "http://www.meetup.com/fr-FR/parisrb/" }
+                %img.img-circle.img-responsive{ :alt => "ParisRb", :src => image_path("news/parisrb.png") }/
+            .timeline-panel
+              .timeline-heading
+                = t('parisrb_1_date')
+                .subheading Paris.rb
+              .timeline-body
+                %p= t('parisrb_1_desc_html')

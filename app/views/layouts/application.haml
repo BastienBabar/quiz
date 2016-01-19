@@ -10,8 +10,6 @@
   %title= t(:title)
   = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
-
-
   = csrf_meta_tags
   = render 'layouts/shim'
 %body.index#page-top
@@ -27,4 +25,5 @@
   = javascript_include_tag  "cbpAnimatedHeader"
   = javascript_include_tag  "jqBootstrapValidation"
   = javascript_include_tag  "contact_me"
+  = javascript_include_tag  "reportcard/reportcard"
   = javascript_include_tag  "custom"

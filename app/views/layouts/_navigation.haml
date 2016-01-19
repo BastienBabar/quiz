@@ -1,14 +1,21 @@
-/ Static navbar
 %nav.navbar.navbar-default.navbar-fixed-top
-  .container-fluid
-    .navbar-header
-      %button.navbar-toggle.collapsed{ "aria-controls" => "navbar",
-       "aria-expanded" => "false", "data-target" => "#navbar",
-       "data-toggle" => "collapse", :type => "button" }
+  .container
+    / Brand and toggle get grouped for better mobile display
+    .navbar-header.page-scroll
+      %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
         %span.sr-only Toggle navigation
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
-      = link_to "Home", root_path, class: "navbar-brand"
-    #navbar.navbar-collapse.collapse
-      %ul.nav.navbar-nav.navbar-right= render 'layouts/navigation_links'
+      %a.navbar-brand{:href => "#page-top"}= t('title')
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li.hidden
+          %a{:href => "#page-top"}
+        %li.page-scroll
+          %a{:href => "#portfolio"} Portfolio
+        %li.page-scroll
+          %a{:href => "#about"} About
+        %li.page-scroll
+          %a{:href => "#contact"} Contact

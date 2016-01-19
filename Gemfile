@@ -28,6 +28,8 @@ gem 'globalize'
 gem 'coveralls', require: false
 gem 'mail_form'
 gem 'simple_form'
+gem 'font-awesome-rails'
+gem 'jquery-easing-rails'
 
 group :development do
   gem 'better_errors', '2.1.1'

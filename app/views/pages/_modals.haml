@@ -1,0 +1,84 @@
+#portfolioModalCoach.portfolio-modal.modal.fade{ "aria-hidden" => "true", :role => "dialog", :tabindex => "-1" }
+  .modal-content
+    .close-modal{ "data-dismiss" => "modal" }
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            %h2= t('portfolio.coach.title')
+            %hr.star-primary/
+            %img.img-responsive.img-centered{ :alt => "Coach", :src => image_path("portfolio/coach.png") }/
+            %p= t('portfolio.coach.desc_html')
+            %ul.list-inline.item-details
+              %li
+                = t('portfolio.company_title')+":"
+                %strong
+                  %a{ :href => "http://www.careerbuilder.com" } CareerBuilder
+              %li
+                = t('portfolio.time_title')+":"
+                %strong= t('portfolio.coach.time')
+              %li
+                = t('portfolio.job_title')+":"
+                %strong= t('portfolio.coach.job')
+            %button.btn.btn-default{ "data-dismiss" => "modal", :type => "button" }
+              %i.fa.fa-times
+              =t('close')
+
+#portfolioModalCF.portfolio-modal.modal.fade{ "aria-hidden" => "true", :role => "dialog", :tabindex => "-1" }
+  .modal-content
+    .close-modal{ "data-dismiss" => "modal" }
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            %h2= t('portfolio.cf.title')
+            %hr.star-primary/
+            %img.img-responsive.img-centered{ :alt => "careerfoundry", :src => image_path("portfolio/cf.png") }/
+            %p= t('portfolio.cf.desc_html')
+            %ul.list-inline.item-details
+              %li
+                = t('portfolio.company_title')+":"
+                %strong
+                  %a{ :href => "http://www.careerfoundry.com" } CareerFoundry
+              %li
+                = t('portfolio.time_title')+":"
+                %strong= t('portfolio.cf.time')
+              %li
+                = t('portfolio.job_title')+":"
+                %strong= t('portfolio.cf.job')
+            %button.btn.btn-default{ "data-dismiss" => "modal", :type => "button" }
+              %i.fa.fa-times
+              =t('close')
+
+
+#portfolioModalParis.portfolio-modal.modal.fade{ "aria-hidden" => "true", :role => "dialog", :tabindex => "-1" }
+  .modal-content
+    .close-modal{ "data-dismiss" => "modal" }
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            %h2= t('portfolio.paris.title')
+            %hr.star-primary/
+            %img.img-responsive.img-centered{ :alt => "careerfoundry", :src => image_path("portfolio/paris-cityguide.png") }/
+            %p= t('portfolio.paris.desc_html')
+            %ul.list-inline.item-details
+              %li
+                = t('portfolio.company_title')+":"
+                %strong
+                  %a{ :href => "https://www.startus.cc/" } StartUs
+              %li
+                = t('portfolio.time_title')+":"
+                %strong= t('portfolio.paris.time')
+              %li
+                = t('portfolio.job_title')+":"
+                %strong= t('portfolio.paris.job')
+            %button.btn.btn-default{ "data-dismiss" => "modal", :type => "button" }
+              %i.fa.fa-times
+              =t('close')

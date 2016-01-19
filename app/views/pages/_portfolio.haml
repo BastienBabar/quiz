@@ -2,77 +2,33 @@
   .container
     .row
       .col-lg-12.text-center
-        %h2= t('portfolio')
+        %h2= t('portfolio.title')
         %hr.star-primary
     .row
-      .col-sm-6.portfolio-item
-        %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModalCoach"}
-          .caption
+      .col-sm-4.portfolio-item
+        %a.portfolio-link{ "data-toggle" => "tooltip", "data-placement" => "bottom",
+                  :title => t('portfolio.coach.title'), :href => "#portfolioModalCoach" }
+          .caption{ "data-toggle" => "modal", :href => "#portfolioModalCoach" }
             .caption-content
               %i.fa.fa-search-plus.fa-3x
-          %img.img-responsive{:alt => "Coach", :src => image_path("portfolio/coach.png") }/
-      .col-sm-6.portfolio-item
-        %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModalCF"}
-          .caption
+          %img.img-responsive{ :alt => "Coach", :src => image_path("portfolio/coach.png") }/
+      .col-sm-4.portfolio-item
+        %a.portfolio-link{ "data-toggle" => "tooltip", "data-placement" => "bottom",
+                    :title => t('portfolio.cf.title'), :href => "#portfolioModalCF" }
+          .caption{ "data-toggle" => "modal", :href => "#portfolioModalCF" }
             .caption-content
               %i.fa.fa-search-plus.fa-3x
-          %img.img-responsive{:alt => "careerfoundry", :src => image_path("portfolio/cf.png") }/
-
+          %img.img-responsive{ :alt => "careerfoundry", :src => image_path("portfolio/cf.png") }/
+      .col-sm-4.portfolio-item
+        %a.portfolio-link{ "data-toggle" => "tooltip", "data-placement" => "bottom",
+                    :title => t('portfolio.paris.title'), :href => "#portfolioModalParis" }
+          .caption{ "data-toggle" => "modal", :href => "#portfolioModalParis" }
+            .caption-content
+              %i.fa.fa-search-plus.fa-3x
+          %img.img-responsive{ :alt => "Paris", :src => image_path("portfolio/paris-cityguide.png") }/
     .row
       .col-lg-12.text-center
         = t('more_to_come_html')
+
 / Portfolio Modals
-#portfolioModalCoach.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
-  .modal-content
-    .close-modal{"data-dismiss" => "modal"}
-      .lr
-        .rl
-    .container
-      .row
-        .col-lg-8.col-lg-offset-2
-          .modal-body
-            %h2 Coach by CareerBuilder
-            %hr.star-primary/
-            %img.img-responsive.img-centered{:alt => "Coach", :src => image_path("portfolio/coach.png") }/
-            %p= t('portfolio_coach_desc_html')
-            %ul.list-inline.item-details
-              %li
-                = t('portfolio_company_title')+":"
-                %strong
-                  %a{:href => "http://www.careerbuilder.com"} CareerBuilder
-              %li
-                = t('portfolio_time_title')+":"
-                %strong= t('portfolio_coach_time')
-              %li
-                = t('portfolio_job_title')+":"
-                %strong= t('portfolio_coach_job')
-            %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
-              %i.fa.fa-times
-              =t('close')
-#portfolioModalCF.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
-  .modal-content
-    .close-modal{"data-dismiss" => "modal"}
-      .lr
-        .rl
-    .container
-      .row
-        .col-lg-8.col-lg-offset-2
-          .modal-body
-            %h2 Mentor at CareerFoundry
-            %hr.star-primary/
-            %img.img-responsive.img-centered{:alt => "careerfoundry", :src => image_path("portfolio/cf.png") }/
-            %p= t('portfolio_cf_desc_html')
-            %ul.list-inline.item-details
-              %li
-                = t('portfolio_company_title')+":"
-                %strong
-                  %a{:href => "http://www.careerfoundry.com"} CareerFoundry
-              %li
-                = t('portfolio_time_title')+":"
-                %strong= t('portfolio_cf_time')
-              %li
-                = t('portfolio_job_title')+":"
-                %strong= t('portfolio_cf_job')
-            %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
-              %i.fa.fa-times
-              =t('close')
+= render 'pages/modals'

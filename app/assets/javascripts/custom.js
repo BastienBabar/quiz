@@ -35,3 +35,9 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+$(document).ready(function() {
+    if (window.matchMedia("(min-width: 768px)").matches) {
+        $('[data-toggle="tooltip"]').tooltip();
+    }
+});

@@ -6,4 +6,15 @@
         %hr.star-primary
     .row
       .col-lg-8.col-lg-offset-2
-        %p= t('contact_intro_html', about: (link_to "About", ('#about')))
+        %p= t('contact_intro_html')
+    .row
+      %ul.list-inline.text-center
+        %li
+          %a.btn-social-contact.btn-contact-outline{:href => "https://twitter.com/BastienBarbe"}
+            %i.fa.fa-twitter.fa-fw
+        %li
+          %a.btn-social-contact.btn-contact-outline{:href => "https://github.com/BastienBABAR"}
+            %i.fa.fa-github.fa-fw
+        %li
+          %a.btn-social-contact.btn-contact-outline{:href => "https://www.linkedin.com/profile/view?id=371794916"}
+            %i.fa.fa-linkedin.fa-fw

@@ -1,3 +1,9 @@
-%section#welcome
-  %h1= t("welcome_h1")
-  %p= t("welcome_intro")
+%header
+  .container
+    .row
+      .col-lg-12
+        %img.img-responsive{ :alt => "profile", :src => image_path("profile.png") }/
+        .intro-text
+          %span.name= t('title')
+          %hr.star-light
+          %span.skills= t('welcome_intro')

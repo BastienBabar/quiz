@@ -10,12 +10,21 @@
   %title= t(:title)
   = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
+
+
   = csrf_meta_tags
   = render 'layouts/shim'
-%body.container{ 'data-spy' => "scroll", 'data-target' => ".navbar" }
-  %header= render 'layouts/navigation'
+%body.index#page-top
+  = render 'layouts/navigation'
   = render 'layouts/messages'
   = yield
   %footer.footer
     = render 'layouts/footer'
     = debug(params) if Rails.env.development?
+
+  = javascript_include_tag  "jquery.easing"
+  = javascript_include_tag  "classie"
+  = javascript_include_tag  "cbpAnimatedHeader"
+  = javascript_include_tag  "jqBootstrapValidation"
+  = javascript_include_tag  "contact_me"
+  = javascript_include_tag  "custom"

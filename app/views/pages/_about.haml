@@ -1,5 +1,11 @@
-%section#about
-  %hr.style-two
-  - provide(:title, t('about_me'))
-  %h1= t('about_me')
-  %p= t('about_text_html')
+%section.success#about
+  .container
+    .row
+      .col-lg-12.text-center
+        %h2= t('about')
+        %hr.star-light
+    .row
+      .col-lg-4.col-lg-offset-2
+        %p= t('about_text_1_html')
+      .col-lg-4
+        %p= t('about_text_2_html')

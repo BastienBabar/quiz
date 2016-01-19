@@ -1,0 +1,111 @@
+%section#portfolio
+  .container
+    .row
+      .col-lg-12.text-center
+        %h2= t('portfolio')
+        %hr.star-primary
+    .row
+      .col-sm-4.portfolio-item
+        %a.portfolio-link{"data-toggle" => "modal", :href => "#portfolioModalcoach"}
+          .caption
+            .caption-content
+              %i.fa.fa-search-plus.fa-3x
+          %img.img-responsive{:alt => "", :src => image_path("portfolio/coach.png") }/
+
+/ Portfolio Modals
+#portfolioModalCoach.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+  .modal-content
+    .close-modal{"data-dismiss" => "modal"}
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            %h2 Project Title
+            %hr.star-primary/
+            %img.img-responsive.img-centered{:alt => "", :src => image_path("portfolio/coach.png") }/
+            %p
+              Use this area of the page to describe your project. The icon above is part of a free icon set by
+              = succeed "." do
+                %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
+            %ul.list-inline.item-details
+              %li
+                Client:
+                %strong
+                  %a{:href => "http://startbootstrap.com"} Start Bootstrap
+              %li
+                Date:
+                %strong
+                  %a{:href => "http://startbootstrap.com"} April 2014
+              %li
+                Service:
+                %strong
+                  %a{:href => "http://startbootstrap.com"} Web Development
+            %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
+              %i.fa.fa-times
+              Close
+#portfolioModal2.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+  .modal-content
+    .close-modal{"data-dismiss" => "modal"}
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            %h2 Project Title
+            %hr.star-primary/
+            %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/cake.png"}/
+            %p
+              Use this area of the page to describe your project. The icon above is part of a free icon set by
+              = succeed "." do
+                %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
+            %ul.list-inline.item-details
+              %li
+                Client:
+                %strong
+                  %a{:href => "http://startbootstrap.com"} Start Bootstrap
+              %li
+                Date:
+                %strong
+                  %a{:href => "http://startbootstrap.com"} April 2014
+              %li
+                Service:
+                %strong
+                  %a{:href => "http://startbootstrap.com"} Web Development
+            %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
+              %i.fa.fa-times
+              Close
+#portfolioModal3.portfolio-modal.modal.fade{"aria-hidden" => "true", :role => "dialog", :tabindex => "-1"}
+  .modal-content
+    .close-modal{"data-dismiss" => "modal"}
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            %h2 Project Title
+            %hr.star-primary/
+            %img.img-responsive.img-centered{:alt => "", :src => "img/portfolio/circus.png"}/
+            %p
+              Use this area of the page to describe your project. The icon above is part of a free icon set by
+              = succeed "." do
+                %a{:href => "https://sellfy.com/p/8Q9P/jV3VZ/"} Flat Icons
+            %ul.list-inline.item-details
+              %li
+                Client:
+                %strong
+                  %a{:href => "http://startbootstrap.com"} Start Bootstrap
+              %li
+                Date:
+                %strong
+                  %a{:href => "http://startbootstrap.com"} April 2014
+              %li
+                Service:
+                %strong
+                  %a{:href => "http://startbootstrap.com"} Web Development
+            %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"}
+              %i.fa.fa-times
+              Close

@@ -20,6 +20,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  close: Close
   title: Bastien Barbé
   welcome_h1: Welcome to Bastien's website!
   # welcome_intro: This website to learn more about me is under construction, so please be comprehensive about any bad feature or design :)
@@ -46,3 +47,18 @@ en:
                      if you want to contact me any opportunity.</p>
   contact_intro_html: <p>If you want to reach me, you can use this old fashioned contact form.</p><br>
                     <p>This is under constructions, more to come...</p>
+  portfolio_time_title: Period
+  portfolio_company_title: Company
+  portfolio_job_title: Job
+  portfolio_coach_desc_html: For the last year, I worked on all stages of
+          <a href="http://coach.careerbuilder.com" target="_blank" >this product</a>,
+          from the discovery and user testing to back end / front end development and infrastructure architecture.
+  portfolio_coach_time: 2014/2015
+  portfolio_coach_job: Lead Engineer
+  portfolio_cf_desc_html: I am currently a mentor at
+          <a href="http://www.careerfoundry.com" target="_blank" >CareerFoundry</a>,
+          for the Web developer students, which I help to validate their exercises
+          and give them tips about web development in general.
+  portfolio_cf_time: Since 2015 August
+  portfolio_cf_job: Mentor (Web Developer Course)
+  more_to_come_html: <h3>More to come...</h3>

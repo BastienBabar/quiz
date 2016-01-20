@@ -19,6 +19,7 @@
   %footer.footer
     = render 'layouts/footer'
     = debug(params) if Rails.env.development?
+    = render 'layouts/ga' if Rails.env.production?
 
   = javascript_include_tag  "jquery.easing"
   = javascript_include_tag  "classie"

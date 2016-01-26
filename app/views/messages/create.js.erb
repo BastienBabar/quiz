@@ -1,0 +1,17 @@
+contact_success = $("#contact_success");
+contact_errors = $("#contact_errors");
+contact_success.html("");
+contact_errors.html("");
+<% if @message.errors.any? %>
+contact_success.append("<%= t(:contact_form_failure) %>");
+<% @message.errors.full_messages.each do |message| %>
+contact_errors.append($("<li class='list-group-item' />").html("<%= message.html_safe %>"));
+<% end %>
+<% else %>
+contact_success.append("<%= t(:contact_form_success) %>");
+$("#contact_form").hide();
+<% end %>
+$('#confirm_contact').show();
+$('html, body').animate({
+    scrollTop: $("#contact").offset().top
+}, 1000);

@@ -4,11 +4,11 @@ ruby '2.2.3'
 
 # Rails
 
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.5'
 
 # Default Rails gems
 
-gem 'sass-rails', '5.0.1'
+gem 'sass-rails', '5.0.3'
 gem 'uglifier', '2.7.1'
 gem 'coffee-rails', '4.1.0'
 gem 'jquery-rails', '4.0.3'
@@ -26,18 +26,21 @@ gem 'haml-rails'
 gem 'dotenv-rails'
 gem 'globalize'
 gem 'coveralls', require: false
-gem 'mail_form'
-gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'jquery-easing-rails'
+gem 'redis', '~> 3.0'
+gem 'redis-rails', '~> 4.0'
+gem 'resque'
+gem 'resque-scheduler'
 
 group :development do
   gem 'better_errors', '2.1.1'
-  gem 'binding_of_caller', '0.7.2', :platforms=>[:mri_21]
+  gem 'binding_of_caller'
   gem 'quiet_assets', '1.1.0'
   gem 'spring', '1.3.3'
   gem 'localeapp'
   gem 'guard-rspec', require: false
+  gem 'letter_opener'
 end
 
 group :test, :development do
@@ -53,7 +56,6 @@ group :test do
   gem 'capybara', '2.4.4'
   gem 'capybara-screenshot', '~> 1.0'
   gem 'poltergeist', '~> 1.6'
-  gem 'simplecov'
   gem 'i18n-spec'
 end
 

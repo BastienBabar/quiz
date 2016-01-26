@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe MessageMailer, type: :mailer do
   describe 'create' do
-    let(:message) { double(Message, name: 'Lucas', email: 'lucas@email.com', message: 'test email message') }
+    let(:message) { Message.new('Lucas', 'lucas@email.com', 'test email message') }
     let(:mail) { MessageMailer.new_message(message.name, message.email, message.message) }
 
     it 'renders the subject' do

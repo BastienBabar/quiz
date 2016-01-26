@@ -32,13 +32,13 @@ gem 'redis', '~> 3.0'
 gem 'redis-rails', '~> 4.0'
 gem 'resque'
 gem 'resque-scheduler'
+gem 'localeapp'
 
 group :development do
   gem 'better_errors', '2.1.1'
   gem 'binding_of_caller'
   gem 'quiet_assets', '1.1.0'
   gem 'spring', '1.3.3'
-  gem 'localeapp'
   gem 'guard-rspec', require: false
   gem 'letter_opener'
 end

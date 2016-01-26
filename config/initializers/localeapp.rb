@@ -1,6 +1,6 @@
-require 'localeapp'
-require 'localeapp/rails'
+require "localeapp"
+require "localeapp/rails"
 
 Localeapp.configure do |config|
-  config.api_key = ENV['LOCALEAPP_KEY']
+  config.api_key = ENV["LOCALEAPP_KEY"]
 end

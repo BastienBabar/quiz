@@ -9,7 +9,7 @@ require File.expand_path('../../config/environment', __FILE__)
 if Rails.env.production?
   abort("The Rails environment is running in production mode!")
 end
-require 'coveralls'
+require "coveralls"
 Coveralls.wear!
 require 'rspec/rails'
 require 'factory_girl_rails'

@@ -1,0 +1,8 @@
+fr:
+  activemodel:
+    attributes:
+      message:
+        email: Email
+    models:
+      message: Message
+  contact: Conact

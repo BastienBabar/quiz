@@ -1,24 +1,3 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
   close: Close
   title: Bastien Barbé
@@ -30,20 +9,13 @@ en:
   learnings: Learnings
   news: News
   news_sub: Look at my news, events participation and blog shares.
-  about_text_1_html: <p>I am currently a Lead Developer at CareerBuilder, working with Ruby on Rails for 2 years.
-                  In the 5 years prior to that, I built solutions in .Net technologies.
-                  I love new challenges and am ready to learn additional languages!</p><br>
-  about_text_2_html: <p>I have started to be a mentor at CareerFoundry for the web developer course since 2015
-                at <a href="http://www.CareerFoundry.com" target="_blank">CareerFoundry</a>.</p><br>
-                <p>My <a href="http://github.com/BastienBabar" target="_blank">Github account</a>
-                has a few little applications, but, I am working on it and open to opportunities.</p><br>
-  about_text_3_html: <p>I am a French Software Developer with more than 7 years experience in building web-based applications.</p><br>
-                     <p>You can go to <a href="http://www.CareerFoundry.com" target="_blank">CareerFoundry</a> to check out
-                     the web developer course where I am mentoring a few students <br>
-                     and my french <a href="https://www.hopwork.fr/profile/bastienbarbe" target="_blank">HopWork profile</a>
-                     if you want to contact me any opportunity.</p>
-  contact_intro_html: <p>I am working on this contact form, if you want to reach me.</p><br>
-                    <p>This is under constructions, more to come...</p>
+  about_text_1_html: "<p>I am currently a Lead Developer at CareerBuilder, working with Ruby on Rails for 2 years. In the 5 years prior to that, I built solutions in .Net technologies. I love new challenges and am ready to learn additional languages!</p><br>"
+  about_text_2_html: <p>I have started to be a mentor at CareerFoundry for the web developer course since 2015 at <a href="http://www.CareerFoundry.com" target="_blank">CareerFoundry</a>.</p><br> <p>My <a href="http://github.com/BastienBabar" target="_blank">Github account</a> has a few little applications, but, I am working on it and open to opportunities.</p><br>
+  about_text_3_html: <p>I am a French Software Developer with more than 7 years experience in building web-based applications.</p><br> <p>You can go to <a href="http://www.CareerFoundry.com" target="_blank">CareerFoundry</a> to check out the web developer course where I am mentoring a few students <br> and my french <a href="https://www.hopwork.fr/profile/bastienbarbe" target="_blank">HopWork profile</a> if you want to contact me any opportunity.</p>
+  contact_intro_html: "<p>I am working on this contact form, if you want to reach me.</p><br> <p>This is under constructions, more to come...</p>"
+  contact_enter_name: Please enter your name.
+  contact_enter_email: Please enter your email address.
+  contact_enter_message: Please enter your message.
   portfolio:
     title: Portfolio
     time_title: Period
@@ -51,31 +23,32 @@ en:
     job_title: Job
     coach:
       title: Coach by CareerBuilder
-      desc_html: A career site that allows users to compare themselves to others in their current or desired job.<br>
-          For the last year, I worked on all stages of
-          <a href="http://coach.careerbuilder.com" target="_blank" >this product</a>,
-          from the discovery and user testing to back end / front end development and infrastructure architecture.
+      desc_html: A career site that allows users to compare themselves to others in their current or desired job.<br> For the last year, I worked on all stages of <a href="http://coach.careerbuilder.com" target="_blank" >this product</a>, from the discovery and user testing to back end / front end development and infrastructure architecture.
       time: 2014/2015
       job: Lead Engineer
     cf:
       title: Mentor at CareerFoundry
-      desc_html: I am currently a mentor at
-          <a href="http://www.careerfoundry.com" target="_blank" >CareerFoundry</a>,
-          for the Web developer students, which I help to validate their exercises
-          and give them tips about web development in general, during their 6 months training.
+      desc_html: I am currently a mentor at <a href="http://www.careerfoundry.com" target="_blank" >CareerFoundry</a>, for the Web developer students, which I help to validate their exercises and give them tips about web development in general, during their 6 months training.
       time: Since 2015 August
       job: Mentor (Web Developer Course)
     paris:
       title: Paris Startups City Guide
-      desc_html: Check out this useful
-          <a href="http://magazine.startus.cc/paris-startup-city-guide/" target="_blank" >City Guide</a>
-           for startups who want to start their business in Paris.
+      desc_html: Check out this useful <a href="http://magazine.startus.cc/paris-startup-city-guide/" target="_blank" >City Guide</a> for startups who want to start their business in Paris.
       time: Janury 2016
       job: Writer
-  more_to_come_html: <h3>More to come...</h3>
+  more_to_come_html: "<h3>More to come...</h3>"
   hopdrinks_date: 2016 Jan. 21st
   hopdrinks_desc_html: Meetup "Apéro" for Freelancers in Paris!
   parisrb_1_date: 2016 Jan. 6th
   parisrb_1_desc_html: Paris Ruby Developer community meetup
   parisrb_2_date: 2016 Feb. 2nd
   parisrb_2_desc_html: Paris Ruby Developer community meetup
+  activemodel:
+    attributes:
+      message:
+        email: Email
+    models:
+      message: Message
+  contact: Contact
+  contact_form_success: Your email has been sent! Thank you!
+  contact_form_failure: Your email has not been sent

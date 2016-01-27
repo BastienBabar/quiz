@@ -30,8 +30,9 @@ gem 'font-awesome-rails'
 gem 'jquery-easing-rails'
 gem 'redis', '~> 3.0'
 gem 'redis-rails', '~> 4.0'
-gem 'resque', '~> 1.22.0'
-gem 'resque-scheduler', '~> 2.2.0'
+gem 'resque'
+gem 'resque-scheduler', '~> 2.5.5'
+gem 'resque-web', require: 'resque_web'
 gem 'localeapp'
 
 group :development do

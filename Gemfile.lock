@@ -410,7 +410,7 @@ DEPENDENCIES
   redis (~> 3.0)
   redis-rails (~> 4.0)
   resque (~> 1.22.0)
-  resque-scheduler
+  resque-scheduler (~> 2.2.0)
   rspec-rails (= 3.3.3)
   sass-rails (= 5.0.3)
   sdoc (= 0.4.1)

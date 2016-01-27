@@ -31,7 +31,7 @@ module Quiz
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
-    config.active_job.queue_adapter = :presque
+    config.active_job.queue_adapter = :resque
 
     # Default Application Settings
     config.application_name = "Quiz"

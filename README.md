@@ -6,3 +6,4 @@
 
 This application will include a quiz (within a gem or not) to show more about myself.
 
+http://www.bastienbarbé.com

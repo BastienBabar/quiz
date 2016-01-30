@@ -7,3 +7,7 @@
 This application will include a quiz (within a gem or not) to show more about myself.
 
 http://www.bastienbarbé.com
+
+## DEPENDENCIES
+
+Email test tool in development: [mailcatcher](http://mailcatcher.me/)

@@ -41,7 +41,6 @@ group :development do
   gem 'quiet_assets', '1.1.0'
   gem 'spring', '1.3.3'
   gem 'guard-rspec', require: false
-  gem 'letter_opener'
 end
 
 group :test, :development do

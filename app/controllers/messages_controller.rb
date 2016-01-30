@@ -3,9 +3,13 @@ class MessagesController < ApplicationController
     @message = Message.new(params[:name], params[:email], params[:message])
 
     if @message.valid?
-      # MessageMailer.new_message(@message.name, @message.email, @message.message).deliver_now
-      # Resque.enqueue(SendContactEmailJob, @message.name, @message.email, @message.message)
-      SendContactEmailJob.perform_later(@message.name, @message.email, @message.message)
+      # MessageMailer.new_message(@message.name,
+      #   @message.email, @message.message).deliver_now
+      # Resque.enqueue(SendContactEmailJob, @message.name,
+      #   @message.email, @message.message)
+      SendContactEmailJob.perform_later(@message.name,
+                                        @message.email,
+                                        @message.message)
       respond_to do |format|
         format.json { render json: { notice: "Your messages has been sent." }, status: :ok }
         format.js { render :layout => false }

@@ -8,14 +8,15 @@
     .row
       .col-md-12.news-item
         %ul.timeline
-          -NEWS.reverse_each.with_index do |news,i|
-            %li{class: ("timeline-inverted" if i%2==0)}
+          - NEWS.reverse_each.with_index do |news,i|
+            %li{ class: ("timeline-inverted" if i%2==0) }
               .timeline-image
                 %a{ :target => "_blank", :href => news['link'] }
-                  %img.img-circle.img-responsive{ :alt => news['title'], :src => image_path(news['img']) }/
+                  %img.img-circle.img-responsive{ :alt => news['title'],
+                   :src => image_path(news['img']) }/
               .timeline-panel
                 .timeline-heading
                   = t(news['date_t'])
-                  .subheading=news['title']
+                  .subheading= news['title']
                 .timeline-body
                   %p= t(news['desc_t'])

@@ -4,14 +4,14 @@ ruby '2.2.3'
 
 # Rails
 
-gem 'rails', '4.2.5'
+gem 'rails', '~> 4.2.5.1'
 
 # Default Rails gems
 
 gem 'sass-rails', '5.0.3'
-gem 'uglifier', '2.7.1'
+gem 'uglifier', '>= 2.7.2'
 gem 'coffee-rails', '4.1.0'
-gem 'jquery-rails', '4.0.3'
+gem 'jquery-rails', '>= 4.0.4'
 gem 'turbolinks', '2.5.3'
 gem 'jbuilder', '2.2.11'
 gem 'sdoc', '0.4.1', group: :doc, require: false
@@ -21,7 +21,7 @@ gem 'sdoc', '0.4.1', group: :doc, require: false
 gem 'high_voltage', '2.2.1'
 gem 'bootstrap-sass', '3.3.3'
 gem 'autoprefixer-rails', '5.1.7'
-gem 'devise', '3.4.1'
+gem 'devise', '>= 3.5.4'
 gem 'haml-rails'
 gem 'dotenv-rails'
 gem 'globalize'
@@ -62,6 +62,6 @@ end
 group :production do
   gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.3'
-  gem 'passenger', '4.0.57'
+  gem 'passenger', '~> 4.0.60'
   gem 'newrelic_rpm'
 end

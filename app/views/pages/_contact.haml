@@ -10,25 +10,28 @@
           .panel-heading
             .panel-title#contact_success
           %ul.list-group#contact_errors
-        =form_tag '/contact', method: :post, remote: true, id: 'contact_form' do
+        = form_tag '/contact', method: :post, remote: true, id: 'contact_form' do
           .row.control-group
             .form-group.col-xs-12.floating-label-form-group.controls
-              =label_tag 'name', t('name')
-              =text_field_tag 'name', nil, placeholder: t('name'), class: 'form-control',
+              = label_tag 'name', t('name')
+              = text_field_tag 'name', nil, placeholder: t('name'),
+                class: 'form-control',
                 required: "required", "data-validation-required-message" => t('contact_enter_name')
           .row.control-group
             .form-group.col-xs-12.floating-label-form-group.controls
-              =label_tag 'email', t('email_address')
-              =text_field_tag 'email', nil, placeholder: t('email_address'), class: 'form-control',
+              = label_tag 'email', t('email_address')
+              = text_field_tag 'email', nil, placeholder: t('email_address'),
+                class: 'form-control',
                 required: true, "data-validation-required-message" => t('contact_enter_email')
           .row.control-group
             .form-group.col-xs-12.floating-label-form-group.controls
-              =label_tag 'message', t('message')
-              =text_area_tag 'message', nil, placeholder: t('message'), class: 'form-control',
+              = label_tag 'message', t('message')
+              = text_area_tag 'message', nil, placeholder: t('message'),
+                class: 'form-control',
                 required: true, "data-validation-required-message" => t('contact_enter_message'), rows: 5
           .row
             .form-group.col-xs-12
-              =submit_tag t('send'), class: 'btn btn-success btn-lg'
+              = submit_tag t('send'), class: 'btn btn-success btn-lg'
     .row
       %ul.list-inline.text-center
         %li

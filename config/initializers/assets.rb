@@ -9,12 +9,6 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
-Rails.application.config.assets.precompile += %w( jquery.easing.js )
-Rails.application.config.assets.precompile += %w( classie.js )
-Rails.application.config.assets.precompile += %w( cbpAnimatedHeader.js )
-Rails.application.config.assets.precompile += %w( jqBootstrapValidation.js )
-Rails.application.config.assets.precompile += %w( contact_me.js )
+Rails.application.config.assets.precompile += [/.*\.js/]
 Rails.application.config.assets.precompile += %w( reportcard/reportcard.js )
-Rails.application.config.assets.precompile += %w( custom.js )
-Rails.application.config.assets.precompile += %w( resque_web/lifebuoy.png )
-Rails.application.config.assets.precompile += %w( resque_web/idle.png )
+Rails.application.config.assets.precompile += %w( resque_web/* )

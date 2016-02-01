@@ -5,4 +5,55 @@ fr:
         email: Email
     models:
       message: Message
-  contact: Conact
+  contact: Contact
+  about: A propos
+  about_me: A propos de moi
+  about_text_1_html: "<p>Je suis actuellement Lead Developer à CareerBuilder, travaillant avec Ruby on Rails depuis 2 ans. Durant les 5 années précédentes, j'utilisais les technologies .Net de Microsoft. J'aime les nouveaux challenges et je suis prêt à apprendre de nouvelles choses !</p><br>"
+  about_text_2_html: <p>Je suis un mentor pour le cours de web developer depuis 2015 à <a href="http://www.CareerFoundry.com" target="_blank">CareerFoundry</a>.</p><br> <p>Mon <a href="http://github.com/BastienBabar" target="_blank">compte Github</a> contient quelques petites applications, comme ce site, mais j'y travaille et suis ouvert à toute opportunité.</p><br>
+  about_text_3_html: <p>Je suis un développeur avec plus de 7 ans d'expérience dans les applications web.</p><br> <p>Vous pouvez aller sur <a href="http://www.CareerFoundry.com" target="_blank">CareerFoundry</a> pour découvrir le cours de web developer où je suis mentor pour quelques étudiants <br> et mon <a href="https://www.hopwork.fr/profile/bastienbarbe" target="_blank">profile HopWork</a> pour toute opportunité freelance.</p>
+  close: Fermer
+  contact_enter_email: Veuillez entrer votre adresse email.
+  contact_enter_message: Veuillez entrer votre message.
+  contact_enter_name: Veuillez entrer votre nom.
+  contact_form_failure: Votre email n'a pas été envoyé.
+  contact_form_success: Votre email a été envoyé ! Merci !
+  hopdrinks_date: 21 Janvier 2016
+  hopdrinks_desc_html: Meetup "Apéro" pour Freelancers à Paris !
+  learnings: Learnings
+  more_to_come_html: "<h3>Plus à venir ...</h3>"
+  news: News
+  news_sub: Mes news, événements et partages.
+  parisrb_1_date: 6 Janvier 2016
+  parisrb_1_desc_html: 'Meetup de la communauté des développeurs Ruby à Paris '
+  parisrb_2_date: 2 Février 2016
+  parisrb_2_desc_html: 'Meetup de la communauté des développeurs Ruby à Paris '
+  portfolio:
+    cf:
+      desc_html: Je suis actuellement mentor à <a href="http://www.careerfoundry.com" target="_blank" >CareerFoundry</a>, pour les étudiants qui veulent devenir développeur web, que j'aide avec leurs exercices, valider leur travail et le développement web en général, durant 6 mois.
+      job: Mentor (Programme Web Developer)
+      time: Depuis Août 2015
+      title: Mentor à CareerFoundry
+    coach:
+      desc_html: Un site qui permet aux utilisateurs de se comparer au marché de l'emploi de leur poste actuel, ou à d'autres.<br> Toute l'année 2015, j'ai participé à toutes les étapes de <a href="http://coach.careerbuilder.com" target="_blank" >ce produit</a>, des test utilisateurs au back-end et front-end, et même l'infrastructure serveur.
+      job: Lead développeur
+      time: 2014/2015
+      title: Coach by CareerBuilder
+    company_title: Entreprise
+    job_title: Emploi
+    paris:
+      desc_html: Allez voir ce très utile <a href="http://magazine.startus.cc/paris-startup-city-guide/" target="_blank" >City Guide</a> pour les startups qui veulent débuter leur aventure à Paris.
+      job: Auteur
+      time: Janvier 2016
+      title: Paris Startups City Guide
+    time_title: Période
+    title: Portfolio
+  social_title: Soyez social
+  title: Bastien Barbé
+  welcome_h1: Bienvenue sur le site de Bastien !
+  welcome_intro: Lead/Développeur - Ruby on Rails - Mentor
+  placeholders:
+    email: Entrer votre email
+  email_address: Adresse Email
+  message: Message
+  name: Nom
+  send: Envoyer

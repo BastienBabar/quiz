@@ -23,3 +23,10 @@
           %a{:href => "#learnings"} Learnings
         %li.page-scroll
           %a{:href => "#contact"} Contact
+        %li.flag-switch
+          - if I18n.locale == :en
+            %a{ :target => "_self", :href => '/fr' }
+              %img{ src: image_url("flag/fr.png") }
+          - else
+            %a{ :target => "_self", :href => '/en' }
+              %img{ src: image_url("flag/en.png") }

@@ -1,0 +1,6 @@
+/*!
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+$(function(){$("body").on("click",".page-scroll a",function(o){var t=$(this);$("html, body").stop().animate({scrollTop:$(t.attr("href")).offset().top},1500,"easeInOutExpo"),o.preventDefault()})}),$(function(){$("body").on("input propertychange",".floating-label-form-group",function(o){$(this).toggleClass("floating-label-form-group-with-value",!!$(o.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),$("body").scrollspy({target:".navbar-fixed-top"}),$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()}),$(document).ready(function(){window.matchMedia("(min-width: 768px)").matches&&$('[data-toggle="tooltip"]').tooltip()});

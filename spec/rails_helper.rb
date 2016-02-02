@@ -13,7 +13,8 @@ require "coveralls"
 Coveralls.wear!
 require 'rspec/rails'
 require 'factory_girl_rails'
-
+require 'simplecov'
+SimpleCov.start
 #
 # Given that it is always loaded, you are encouraged to keep this file as
 # light-weight as possible. Requiring heavyweight dependencies from this file

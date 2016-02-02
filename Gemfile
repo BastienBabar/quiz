@@ -34,6 +34,7 @@ gem 'resque'
 gem 'resque-scheduler', '~> 2.5.5'
 gem 'resque-web', require: 'resque_web'
 gem 'localeapp'
+gem 'httparty'
 
 group :development do
   gem 'better_errors', '2.1.1'
@@ -57,6 +58,7 @@ group :test do
   gem 'capybara-screenshot', '~> 1.0'
   gem 'poltergeist', '~> 1.6'
   gem 'i18n-spec'
+  gem 'simplecov', :require => false
 end
 
 group :production do

@@ -1,1 +1,0 @@
-(function(){jQuery(function(){return $(".backtrace").click(function(t){return t.preventDefault(),$(this).next().toggle()}),$("ul.failed li").hover(function(){return $(this).toggleClass("hover")})})}).call(this);

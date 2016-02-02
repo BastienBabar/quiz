@@ -1,1 +1,0 @@
-(function(){$(function(){return $("#confirm_contact").hide()})}).call(this);

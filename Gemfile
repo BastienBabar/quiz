@@ -34,6 +34,7 @@ gem 'resque'
 gem 'resque-scheduler', '~> 2.5.5'
 gem 'resque-web', require: 'resque_web'
 gem 'localeapp'
+gem 'thin'
 
 group :development do
   gem 'better_errors', '2.1.1'
@@ -62,6 +63,6 @@ end
 group :production do
   gem 'pg', '0.17.1'
   gem 'rails_12factor', '0.0.3'
-  gem 'passenger', '~> 4.0.60'
+  # gem 'passenger', '~> 4.0.60'
   gem 'newrelic_rpm'
 end

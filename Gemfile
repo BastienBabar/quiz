@@ -34,6 +34,7 @@ gem 'resque'
 gem 'resque-scheduler', '~> 2.5.5'
 gem 'resque-web', require: 'resque_web'
 gem 'localeapp'
+gem 'httparty'
 gem 'puma'
 
 group :development do

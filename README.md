@@ -4,6 +4,8 @@
 
 ## Quiz
 
+[![Join the chat at https://gitter.im/BastienBabar/quiz](https://badges.gitter.im/BastienBabar/quiz.svg)](https://gitter.im/BastienBabar/quiz?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This application will include a quiz (within a gem or not) to show more about myself.
 
 http://www.bastienbarbé.com

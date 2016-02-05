@@ -36,7 +36,7 @@ en:
       time: January 2016
       job: Writer
   more_to_come_html: "<h3>More to come...</h3>"
-  hopdrinks_date: 2016 Jan. 21st
+  hopdrinks_date: 2016 Feb. 9th
   hopdrinks_desc_html: Meetup "Apéro" for Freelancers in Paris!
   parisrb_1_date: 2016 Jan. 6th
   parisrb_1_desc_html: Paris Ruby Developer community meetup
@@ -55,3 +55,5 @@ en:
   message: Message
   name: Name
   send: Send
+  numa_1_date: 2016 Feb. 8th
+  numa_1_desc_html: CEOs pitch their idea to find a CTO for their startup.

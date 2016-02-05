@@ -17,7 +17,7 @@ fr:
   contact_enter_name: Veuillez entrer votre nom.
   contact_form_failure: Votre email n'a pas été envoyé.
   contact_form_success: Votre email a été envoyé ! Merci !
-  hopdrinks_date: 21 Janvier 2016
+  hopdrinks_date: 9 Février 2016
   hopdrinks_desc_html: Meetup "Apéro" pour Freelancers à Paris !
   learnings: Learnings
   more_to_come_html: "<h3>Plus à venir ...</h3>"
@@ -57,3 +57,5 @@ fr:
   message: Message
   name: Nom
   send: Envoyer
+  numa_1_date: 8 février 2016
+  numa_1_desc_html: Des pitchs de CEO afin de trouver leur CTO pour leur startup.

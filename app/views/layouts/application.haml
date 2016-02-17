@@ -1,12 +1,12 @@
 !!!
-%html{:lang => "en"}
+%html{ :lang => "en" }
   %head
-  %meta{:charset => "utf-8"}/
-  %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
-  %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
-  %meta{:content => "", :name => "description"}/
-  %meta{:content => "", :name => "author"}/
-  %link{:href => "../../favicon.ico", :rel => "icon"}/
+  %meta{ :charset => "utf-8" }/
+  %meta{ :content => "IE=edge", "http-equiv" => "X-UA-Compatible" }/
+  %meta{ :content => "width=device-width, initial-scale=1", :name => "viewport" }/
+  %meta{ :content => "", :name => "description" }/
+  %meta{ :content => "", :name => "author" }/
+  %link{ :href => asset_url("fav.ico"), :rel => "icon" }/
   %title= t(:title)
   = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
   = javascript_include_tag 'application', 'data-turbolinks-track' => true

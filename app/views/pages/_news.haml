@@ -6,14 +6,25 @@
         %h3= t('news_sub')
         %hr.star-primary
     .row
+      %h4= t('news_kamibot')
+      .col-md-6.text-center
+        %iframe{ frameborder: "0", height: "480", scrolling: "no",
+         src: "https://www.kickstarter.com/projects/kamibot/kamibot-teach-your-kids-to-code/widget/video.html", width: "640" }
+      .col-md-6.text-center
+        %iframe{ frameborder: "0", height: "420", scrolling: "no",
+         src: "https://www.kickstarter.com/projects/kamibot/kamibot-teach-your-kids-to-code/widget/card.html?v=2", width: "220" }
+    .row
+      .col-lg-12.text-center
+        %hr.star-primary
+    .row
       .col-md-12.news-item
         %ul.timeline
           - NEWS.reverse_each.with_index do |news,i|
             %li{ class: ("timeline-inverted" if i%2==0) }
               .timeline-image
-                %a{ :target => "_blank", :href => news['link'] }
-                  %img.img-circle.img-responsive{ :alt => news['title'],
-                   :src => image_path(news['img']) }/
+                %a{ target: "_blank", href: news['link'] }
+                  %img.img-circle.img-responsive{ alt: news['title'],
+                   src: image_path(news['img']) }/
               .timeline-panel
                 .timeline-heading
                   = t(news['date_t'])

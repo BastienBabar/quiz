@@ -5,14 +5,22 @@
         %h2= t('news')
         %h3= t('news_sub')
         %hr.star-primary
-    .row
-      %h4= t('news_kamibot')
-      .col-md-6.text-center
-        %iframe{ frameborder: "0", height: "480", scrolling: "no", width: "640",
-         src: "https://www.kickstarter.com/projects/kamibot/kamibot-teach-your-kids-to-code/widget/video.html" }
-      .col-md-6.text-center
-        %iframe{ frameborder: "0", height: "420", scrolling: "no", width: "220",
-         src: "https://www.kickstarter.com/projects/kamibot/kamibot-teach-your-kids-to-code/widget/card.html?v=2" }
+    .kickstarter
+      %h4= t('news_kickstarter')
+      .row
+        .col-md-6.text-center
+          %iframe.video{ frameborder: "0", scrolling: "no",
+           src: "https://www.kickstarter.com/projects/1300499319/youmo-your-smart-modular-power-strip/widget/video.html" }
+        .col-md-6.text-center
+          %iframe{ frameborder: "0", height: "420", scrolling: "no", width: "220",
+           src: "https://www.kickstarter.com/projects/1300499319/youmo-your-smart-modular-power-strip/widget/card.html?v=2" }
+      .row
+        .col-md-6.text-center
+          %iframe.video{ frameborder: "0", scrolling: "no",
+           src: "https://www.kickstarter.com/projects/kamibot/kamibot-teach-your-kids-to-code/widget/video.html" }
+        .col-md-6.text-center
+          %iframe{ frameborder: "0", height: "420", scrolling: "no", width: "220",
+           src: "https://www.kickstarter.com/projects/kamibot/kamibot-teach-your-kids-to-code/widget/card.html?v=2" }
     .row
       .col-lg-12.text-center
         %hr.star-primary

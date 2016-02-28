@@ -60,3 +60,8 @@ fr:
   numa_1_date: 8 février 2016
   numa_1_desc_html: Des pitchs de CEO afin de trouver leur CTO pour leur startup.
   news_kickstarter: J'ai récemment contribué
+  code_school_acquired: Leçons Code School passées
+  code_school_in_progress: 'Leçons Code School en cours '
+  code_school_badges: 
+  code_school_score_html: Mon score actuel total sur <a target="_blank" href="http://www.codeschool.com">Code School</a> est
+  code_school_score: 

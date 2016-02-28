@@ -16,8 +16,16 @@ module Services
 
       private
       def create(args, klass)
-        (args || []).map do |item|
+        if args.kind_of? Hash
+          item = []
+          (args || {}).values.each do |value|
+            item << value
+          end
           klass.new(item[0], item[1], item[2])
+        else
+          (args || []).each do |item|
+            klass.new(item.values[0], item.values[1], item.values[2])
+          end
         end
       end
     end

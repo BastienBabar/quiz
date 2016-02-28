@@ -58,3 +58,8 @@ en:
   numa_1_date: 2016 Feb. 8th
   numa_1_desc_html: CEOs pitch their idea to find a CTO for their startup.
   news_kickstarter: I have recently backed
+  code_school_acquired: Code School lessons passed
+  code_school_in_progress: Code School lessons in progress
+  code_school_badges: 
+  code_school_score_html: My current total score in <a target="_blank" href="http://www.codeschool.com">Code School</a> is
+  code_school_score: 

@@ -13,8 +13,6 @@ require "coveralls"
 Coveralls.wear!
 require 'rspec/rails'
 require 'factory_girl_rails'
-require 'simplecov'
-SimpleCov.start
 
 Dir[Rails.root.join('lib/services/**/*.rb')].each { |f| require f }
 

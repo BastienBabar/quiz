@@ -13,10 +13,6 @@ module Services
       def extract_models
         if parsed_response.kind_of? Hash
           [Services::Models::Codeschool.new(parsed_response)]
-        else
-          (parsed_response || []).map do |item|
-            Services::Models::Codeschool.new(item)
-          end
         end
       end
 

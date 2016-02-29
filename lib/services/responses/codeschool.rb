@@ -11,13 +11,17 @@ module Services
       end
 
       def extract_models
-        if response.kind_of? Hash
-          [Services::Models::Codeschool.new(response)]
+        if parsed_response.kind_of? Hash
+          [Services::Models::Codeschool.new(parsed_response)]
         else
-          (response || []).map do |item|
+          (parsed_response || []).map do |item|
             Services::Models::Codeschool.new(item)
           end
         end
+      end
+
+      def parsed_response
+        JSON.parse(response) unless response.nil?
       end
     end
   end

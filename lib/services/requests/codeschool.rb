@@ -7,7 +7,7 @@ module Services
 
       def get
         response = Rails.cache.fetch("codeschool_cachekey", expires_in: 7.days) do
-          http_client.get(base_uri).parsed_response
+          http_client.get(base_uri).body
         end
         Services::Responses::Codeschool.new(response).models
       end

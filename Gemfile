@@ -4,7 +4,7 @@ ruby '2.2.3'
 
 # Rails
 
-gem 'rails', '~> 4.2.5.1'
+gem 'rails', '~> 4.2.5.2'
 
 # Default Rails gems
 

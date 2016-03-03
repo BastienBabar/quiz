@@ -38,9 +38,9 @@ en:
   more_to_come_html: "<h3>More to come...</h3>"
   hopdrinks_date: 2016 Feb. 9th
   hopdrinks_desc_html: Meetup "Apéro" for Freelancers in Paris!
-  parisrb_1_date: 2016 Jan. 6th
-  parisrb_1_desc_html: Paris Ruby Developer community meetup
-  parisrb_2_date: 2016 Feb. 2nd
+  parisrb_1_date: 2016 March 29th
+  parisrb_1_desc_html: Paris Ruby Developers CodeLab
+  parisrb_2_date: 2016 Apr. 5th
   parisrb_2_desc_html: Paris Ruby Developer community meetup
   activemodel:
     attributes:
@@ -63,3 +63,4 @@ en:
   code_school_badges: 
   code_school_score_html: My current total score in <a target="_blank" href="http://www.codeschool.com">Code School</a> is
   code_school_score: 
+  news_kamibot: 

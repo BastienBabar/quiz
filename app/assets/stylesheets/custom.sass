@@ -1,6 +1,4 @@
-@import "bootstrap-sprockets"
-@import "bootstrap"
-@import "font-awesome"
+
 @import "variables"
 body
   overflow-x: hidden
@@ -41,8 +39,8 @@ hr
   &.star-light
     border-color: #fff
     &:after
-      color: #fff
-      background-color: #18bc9c
+      color: $color1
+      background-color: #fff
   &.star-primary
     border-color: #2c3e50
     &:after
@@ -53,9 +51,14 @@ hr
   margin: 0 auto
 
 header
+  background-image: url("background/1.jpg")
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-position: 50% 0
+  position: relative
   text-align: center
   color: #fff
-  background: #18bc9c
   .container
     padding-top: 100px
     padding-bottom: 50px
@@ -73,32 +76,7 @@ header
       font-size: 1.25em
       font-weight: 300
 
-@media (min-width: 768px)
-  header
-    .container
-      padding-top: 200px
-      padding-bottom: 100px
-    .intro-text
-      .name
-        font-size: 4.75em
-      .skills
-        font-size: 1.75em
 
-@media (min-width: 768px)
-  .navbar-fixed-top
-    padding: 25px 0
-    -webkit-transition: padding .3s
-    -moz-transition: padding .3s
-    transition: padding .3s
-    .navbar-brand
-      font-size: 2em
-      -webkit-transition: all .3s
-      -moz-transition: all .3s
-      transition: all .3s
-    &.navbar-shrink
-      padding: 10px 0
-      .navbar-brand
-        font-size: 1.5em
 
 .navbar
   text-transform: uppercase
@@ -107,7 +85,6 @@ header
   a:focus
     outline: 0
   .navbar-nav
-    letter-spacing: 1px
     li a:focus
       outline: 0
     .flag-switch a
@@ -126,16 +103,13 @@ section
     background: #18bc9c
     a
       outline: 0
-      color: #2c3e50
+      color: #ffffff
+      background-color: rgba(0, 0, 0, 0.2)
       &:hover, &:focus, &:active, &.active
         outline: 0
-        color: #2c3e50
+        color: #ffffff
+        background-color: transparent
 
-@media (max-width: 767px)
-  section
-    padding: 75px 0
-    &.first
-      padding-top: 75px
 
 #portfolio
   .portfolio-item
@@ -182,9 +156,6 @@ section
   *
     z-index: 2
 
-@media (min-width: 767px)
-  #portfolio .portfolio-item
-    margin: 0 0 30px
 
 .btn-outline
   margin-top: 15px
@@ -484,69 +455,6 @@ footer
     margin-bottom: 0
     font-weight: bold
 
-@media (min-width: 768px)
-  .timeline
-    &:before
-      left: 50%
-    > li
-      margin-bottom: 100px
-      min-height: 100px
-      .timeline-panel
-        width: 41%
-        float: left
-        padding: 0 20px 20px 30px
-        text-align: right
-      .timeline-image
-        width: 100px
-        height: 100px
-        left: 50%
-        margin-left: -50px
-        h4
-          font-size: 13px
-          margin-top: 16px
-          line-height: 18px
-      &.timeline-inverted > .timeline-panel
-        float: right
-        text-align: left
-        padding: 0 30px 20px 20px
-
-@media (min-width: 992px)
-  .kickstarter
-    .video
-      width: 440px
-      height: 280px
-  .timeline > li
-    min-height: 150px
-    .timeline-panel
-      padding: 0 20px 20px
-    .timeline-image
-      width: 150px
-      height: 150px
-      margin-left: -75px
-      h4
-        font-size: 18px
-        margin-top: 30px
-        line-height: 26px
-    &.timeline-inverted > .timeline-panel
-      padding: 0 20px 20px
-
-@media (min-width: 1200px)
-  .kickstarter
-    .video
-      width: 640px
-      height: 480px
-  .timeline > li
-    min-height: 170px
-    .timeline-panel
-      padding: 0 20px 20px 100px
-    .timeline-image
-      width: 170px
-      height: 170px
-      margin-left: -85px
-      h4
-        margin-top: 40px
-    &.timeline-inverted > .timeline-panel
-      padding: 0 100px 20px 20px
 
 #learnings
   .code-school
@@ -562,3 +470,22 @@ footer
         -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(85%, transparent), to(rgba(255,255,255,0.2)))
         &:hover
           opacity: 0.7
+
+#about
+  background-image: url("background/2.jpg")
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-position: 50% 0
+  position: relative
+
+#learnings
+  background-image: url("background/3.jpg")
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-position: 50% 0
+  position: relative
+
+.btn-scroll-top
+  padding: 8px

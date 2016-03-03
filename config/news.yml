@@ -1,16 +1,4 @@
 -
-  link: http://www.meetup.com/fr-FR/parisrb/
-  img: news/parisrb.png
-  title: Paris.rb
-  date_t: parisrb_1_date
-  desc_t: parisrb_1_desc_html
--
-  link: http://www.meetup.com/fr-FR/parisrb/
-  img: news/parisrb.png
-  title: Paris.rb
-  date_t: parisrb_2_date
-  desc_t: parisrb_2_desc_html
--
   link: https://paris.numa.co/Evenements/Adopt-a-CTO-14
   img: news/numa.png
   title: Adopt a CTO
@@ -22,3 +10,15 @@
   title: Hopdrinks
   date_t: hopdrinks_date
   desc_t: hopdrinks_desc_html
+-
+  link: http://www.meetup.com/fr-FR/parisrb/
+  img: news/parisrb.png
+  title: Paris.rb
+  date_t: parisrb_1_date
+  desc_t: parisrb_1_desc_html
+-
+  link: http://www.meetup.com/fr-FR/parisrb/
+  img: news/parisrb.png
+  title: Paris.rb
+  date_t: parisrb_2_date
+  desc_t: parisrb_2_desc_html

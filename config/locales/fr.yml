@@ -23,9 +23,9 @@ fr:
   more_to_come_html: "<h3>Plus à venir ...</h3>"
   news: News
   news_sub: Mes news, événements et partages.
-  parisrb_1_date: 6 Janvier 2016
-  parisrb_1_desc_html: 'Meetup de la communauté des développeurs Ruby à Paris '
-  parisrb_2_date: 2 Février 2016
+  parisrb_1_date: 29 Mars 2016
+  parisrb_1_desc_html: CodeLab des développeurs Ruby à Paris
+  parisrb_2_date: 5 Avril 2016
   parisrb_2_desc_html: 'Meetup de la communauté des développeurs Ruby à Paris '
   portfolio:
     cf:
@@ -65,3 +65,4 @@ fr:
   code_school_badges: 
   code_school_score_html: Mon score actuel total sur <a target="_blank" href="http://www.codeschool.com">Code School</a> est
   code_school_score: 
+  news_kamibot: 

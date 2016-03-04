@@ -29,17 +29,5 @@
               = text_area_tag 'message', nil, placeholder: t('message'),
                 class: 'form-control',
                 required: true, "data-validation-required-message" => t('contact_enter_message'), rows: 5
-          .row
-            .form-group.col-xs-12
-              = submit_tag t('send'), class: 'btn btn-success btn-lg'
-    .row
-      %ul.list-inline.text-center
-        %li
-          %a.btn-social-contact.btn-contact-outline{:href => "https://twitter.com/intent/follow?screen_name=BastienBARBE"}
-            %i.fa.fa-twitter.fa-fw
-        %li
-          %a.btn-social-contact.btn-contact-outline{:href => "https://github.com/BastienBABAR"}
-            %i.fa.fa-github.fa-fw
-        %li
-          %a.btn-social-contact.btn-contact-outline{:href => "https://www.linkedin.com/profile/view?id=371794916"}
-            %i.fa.fa-linkedin.fa-fw
+          .row.contact-submit
+            = submit_tag t('send'), class: 'btn btn-success btn-lg'

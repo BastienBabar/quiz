@@ -3,19 +3,28 @@
 @media (max-width: 768px)
   header
     height: 300px
+    background-size: auto 100%
     img
-      display: none !important
-    span
-      margin-bottom: 30px
+      width: 25%
   #about, #learnings
-    background-image: none
+    background-size: auto 100%
     ul
       padding-right: 40px
+    .code-school
+      li
+        img
+          height: 55px
+          width: 55px
+
+@media (max-width: 1200px)
+  header
+    img
+      display: none !important
 
 @media (min-width: 768px)
   header
     .container
-      padding-top: 200px
+      padding-top: 150px
       padding-bottom: 100px
     .intro-text
       .name
@@ -66,6 +75,12 @@
         float: right
         text-align: left
         padding: 0 30px 20px 20px
+  #learnings
+    .code-school
+      li
+        img
+          height: 100px
+          width: 100px
 
 @media (min-width: 992px)
   .navbar-fixed-top
@@ -89,6 +104,12 @@
         line-height: 26px
     &.timeline-inverted > .timeline-panel
       padding: 0 20px 20px
+  #learnings
+    .code-school
+      li
+        img
+          height: 150px
+          width: 150px
 
 @media (min-width: 1200px)
   .kickstarter

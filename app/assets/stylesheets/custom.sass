@@ -1,5 +1,5 @@
-
 @import "variables"
+
 body
   overflow-x: hidden
 
@@ -52,7 +52,7 @@ hr
 
 header
   background-image: image-url("background/1.jpg")
-  background-size: 100% 100%
+  background-size: 100% auto
   background-repeat: no-repeat
   background-attachment: fixed
   background-position: 50% 0
@@ -63,7 +63,6 @@ header
     padding-top: 100px
     padding-bottom: 50px
   img
-    display: block
     margin: 0 auto 20px
   .intro-text
     .name
@@ -75,8 +74,6 @@ header
     .skills
       font-size: 1.25em
       font-weight: 300
-
-
 
 .navbar
   text-transform: uppercase
@@ -92,7 +89,23 @@ header
 
 .navbar-default, .navbar-inverse
   border: 0
-
+  background-color: $color1
+  .navbar-brand
+    color: #ffffff
+    &:hover, &:focus
+      color: $color2
+  .navbar-toggle
+    .icon-bar
+      border-color: #ffffff
+      background-color: #ffffff
+    &:hover, &:focus
+      background-color: #1a242f
+  .navbar-nav
+    li
+      a
+        color: #ffffff
+        &:hover, &:focus
+          color: $color2
 section
   padding: 100px 0
   h2
@@ -473,7 +486,7 @@ footer
 
 #about
   background-image: image-url("background/2.jpg")
-  background-size: 100% 100%
+  background-size: 100% auto
   background-repeat: no-repeat
   background-attachment: fixed
   background-position: 50% 0
@@ -481,7 +494,7 @@ footer
 
 #learnings
   background-image: image-url("background/3.jpg")
-  background-size: 100% 100%
+  background-size: 100% auto
   background-repeat: no-repeat
   background-attachment: fixed
   background-position: 50% 0

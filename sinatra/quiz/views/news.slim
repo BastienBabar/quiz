@@ -1,0 +1,40 @@
+section#news
+  .container
+    .row
+      .col-lg-12.text-center
+        h2= I18n.t('news')
+        h3= I18n.t('news_sub')
+        hr.star-primary
+    .kickstarter
+      h4= I18n.t('news_kickstarter')
+      .row
+        .col-md-6.text-center
+          iframe.video frameborder="0" scrolling="no"
+            src="https://www.kickstarter.com/projects/1300499319/youmo-your-smart-modular-power-strip/widget/video.html"
+        .col-md-6.text-center
+          iframe frameborder="0" height="420" scrolling="no" width="220"
+            src="https://www.kickstarter.com/projects/1300499319/youmo-your-smart-modular-power-strip/widget/card.html?v=2"
+      .row
+        .col-md-6.text-center
+          iframe.video frameborder="0" scrolling="no"
+            src="https://www.kickstarter.com/projects/kamibot/kamibot-teach-your-kids-to-code/widget/video.html"
+        .col-md-6.text-center
+          iframe frameborder="0" height="420" scrolling="no" width="220"
+            src="https://www.kickstarter.com/projects/kamibot/kamibot-teach-your-kids-to-code/widget/card.html?v=2"
+    .row
+      .col-lg-12.text-center
+        hr.star-primary
+    .row
+      .col-md-12.news-item
+        ul.timeline
+          - @news.reverse_each.with_index do |news,i|
+            li class=("timeline-inverted" if i%2==0)
+              .timeline-image
+                a target="_blank" href=news['link']
+                  img.img-circle.img-responsive alt=news['title'] [ src=image_path(news['img']) ]
+              .timeline-panel
+                .timeline-heading
+                  = I18n.t(news['date_t'])
+                  .subheading= news['title']
+                .timeline-body
+                  p= I18n.t(news['desc_t'])

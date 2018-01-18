@@ -1,0 +1,28 @@
+%footer.text-center
+  .footer-above
+    .container
+      .row
+        .footer-col.col-md-6
+          %h3= t('social_title')
+          %ul.list-inline
+            %li
+              %a.btn-social.btn-outline{:href => "https://twitter.com/intent/follow?screen_name=BastienBARBE"}
+                %i.fa.fa-twitter.fa-fw
+            %li
+              %a.btn-social.btn-outline{:href => "https://github.com/BastienBABAR"}
+                %i.fa.fa-github.fa-fw
+            %li
+              %a.btn-social.btn-outline{:href => "https://www.linkedin.com/profile/view?id=371794916"}
+                %i.fa.fa-linkedin.fa-fw
+        .footer-col.col-md-6
+          %h3= t('about_me')
+          %p= t('about_text_3_html')
+  .footer-below
+    .container
+      .row
+        .col-lg-12
+          Copyright © Bastien Barbé 2016
+/ Scroll to Top Button (Only visible on small and extra-small screen sizes)
+.scroll-top.page-scroll.visible-xs.visible-sm
+  %a.btn-scroll-top.btn.btn-primary{:href => "#page-top"}
+    %i.fa.fa-chevron-up

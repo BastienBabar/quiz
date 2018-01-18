@@ -1,0 +1,32 @@
+section#portfolio
+  .container
+    .row
+      .col-lg-12.text-center
+        h2= I18n.t('portfolio.title')
+        hr.star-primary
+    .row
+      .col-sm-4.portfolio-item
+        a.portfolio-link data-toggle="tooltip" data-placement="bottom" title=I18n.t('portfolio.coach.title')
+          href="#portfolioModalCoach"
+          .caption data-toggle="modal" href="#portfolioModalCoach"
+            .caption-content
+              i.fa.fa-search-plus.fa-3x
+          img.img-responsive alt="Coach" [ src=image_path("portfolio/coach.png") ]
+      .col-sm-4.portfolio-item
+        a.portfolio-link data-toggle="tooltip" data-placement="bottom" title=I18n.t('portfolio.cf.title') href="#portfolioModalCF"
+          .caption data-toggle="modal" href="#portfolioModalCF"
+            .caption-content
+              i.fa.fa-search-plus.fa-3x
+          img.img-responsive alt="careerfoundry" [ src= image_path("portfolio/cf.png") ]
+      .col-sm-4.portfolio-item
+        a.portfolio-link data-toggle="tooltip" data-placement="bottom" title=I18n.t('portfolio.paris.title') href="#portfolioModalParis"
+          .caption data-toggle="modal" href="#portfolioModalParis"
+            .caption-content
+              i.fa.fa-search-plus.fa-3x
+          img.img-responsive alt="Paris" [ src= image_path("portfolio/paris-cityguide.png") ]
+    .row
+      .col-lg-12.text-center
+        = I18n.t('more_to_come_html')
+
+/ Portfolio Modals
+= slim 'modals'

@@ -31,4 +31,4 @@ module Quiz
   end
 end
 
-require Dir.pwd + "lib/"
+require Dir.pwd + "/lib"

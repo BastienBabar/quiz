@@ -30,3 +30,5 @@ module Quiz
     config.autoload_paths << "#{config.root}/lib"
   end
 end
+
+require Dir.pwd + "#{config.root}/lib"

@@ -2,16 +2,16 @@ en:
   close: Close
   title: Bastien Barbé
   welcome_h1: Welcome to Bastien's website!
-  welcome_intro: Lead/Software Engineer - Ruby on Rails - Mentor
+  welcome_intro: Software Engineer - Ruby / Rails
   about_me: About me
   about: About
   social_title: Be Social
   learnings: Learnings
   news: News
   news_sub: Look at my news, events participation and shares.
-  about_text_1_html: "<p>I am currently a Lead Developer at CareerBuilder, working with Ruby on Rails for 2 years. In the 5 years prior to that, I built solutions in .Net technologies. I love new challenges and am ready to learn additional languages!</p><br>"
-  about_text_2_html: <p>I have started to be a mentor for the web developer course since 2015 at <a href="http://www.CareerFoundry.com" target="_blank">CareerFoundry</a>.</p><br> <p>My <a href="http://github.com/BastienBabar" target="_blank">Github account</a> has a few little applications, but, I am working on it and open to opportunities.</p><br>
-  about_text_3_html: <p>I am a French Software Developer with more than 7 years experience in building web-based applications.</p><br> <p>You can go to <a href="http://www.CareerFoundry.com" target="_blank">CareerFoundry</a> to check out the web developer course where I am mentoring a few students <br> and here are my <a href="https://www.upwork.com/o/profiles/users/_~01470018277532c90e/" target="_blank">UpWork profile</a> or my french <a href="https://www.hopwork.fr/profile/bastienbarbe" target="_blank">HopWork profile</a> if you want to contact me for any opportunity.</p>
+  about_text_1_html: "<p>I am currently a Backend Developer at Propertybase, working with Ruby on Rails for 5 years. In the 5 years prior to that, I built solutions in .Net technologies. I love new challenges and am ready to learn additional languages!</p><br>"
+  about_text_2_html: <p>My <a href="http://github.com/BastienBabar" target="_blank">Github account</a> has a few little applications, but, I am working on it and open to opportunities.</p><br>
+  about_text_3_html: "<p>I am a French Software Developer with more than 9 years experience in building web-based applications.</p>"
   contact_enter_name: Please enter your name.
   contact_enter_email: Please enter your email address.
   contact_enter_message: Please enter your message.

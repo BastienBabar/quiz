@@ -12,13 +12,13 @@ end
 require "coveralls"
 Coveralls.wear!
 require 'rspec/rails'
-require 'factory_girl_rails'
+require 'factory_bot_rails'
 
 Dir[Rails.root.join('lib/services/**/*.rb')].each { |f| require f }
 Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
 
 RSpec.configure do |config|
-  config.include FactoryGirl::Syntax::Methods
+  config.include FactoryBot::Syntax::Methods
 
   config.before(:suite) do
     DatabaseCleaner.strategy = :transaction

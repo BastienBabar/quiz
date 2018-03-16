@@ -19,9 +19,7 @@ module Quiz
     config.cache_store = :redis_store, ENV['REDIS_URL']
 
     config.i18n.default_locale = :en
-
-    # Do not swallow errors in after_commit/after_rollback callbacks.
-    config.active_record.raise_in_transactional_callbacks = true
+    config.load_defaults 5.1
 
     config.active_job.queue_adapter = :resque
 

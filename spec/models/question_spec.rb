@@ -4,7 +4,7 @@ RSpec.describe Question, type: :model do
   context 'runs the quiz' do
     questions = Question.new.find_10_random
     it 'gets 10 random questions' do
-      FactoryGirl.create_list(:question, 20)
+      FactoryBot.create_list(:question, 20)
       expect(questions.count).to eq(10)
     end
   end

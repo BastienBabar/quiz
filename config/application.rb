@@ -27,8 +27,6 @@ module Quiz
     config.application_name = "Quiz"
     config.application_creator = "Bastien Barbé"
 
-    config.autoload_paths << "#{config.root}/lib"
+    config.autoload_paths << "#{config.root}/app"
   end
 end
-
-require Dir.pwd + "/lib"

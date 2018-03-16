@@ -31,4 +31,4 @@ module Quiz
   end
 end
 
-require Dir.pwd + "#{config.root}/lib"
+require Dir.pwd + "lib/"

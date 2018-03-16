@@ -15,6 +15,6 @@ class ApplicationController < ActionController::Base
 
   private
   def request_codeschool
-    Services::Requests::Codeschool.new.get
+    ::Services::Requests::Codeschool.new.get
   end
 end
